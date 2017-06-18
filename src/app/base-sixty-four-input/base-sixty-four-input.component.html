@@ -1,0 +1,11 @@
+ <div>
+    <div>
+        <label for="filePicker">Choose or drag a file:</label><br>
+        <input type="file" id="filePicker" (change)="handleFileSelect($event)">
+    </div>
+    <br>
+    <div>
+        <h1>Base64 encoded version</h1>
+        <textarea id="base64textarea" placeholder="Base64 will appear here" cols="50" rows="15">{{base64textString}}</textarea>
+    </div>
+</div>
