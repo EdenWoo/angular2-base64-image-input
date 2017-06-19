@@ -17,6 +17,9 @@ import { BaseSixtyFourInputComponent } from './base-sixty-four-input/base-sixty-
     HttpModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports: [
+    BaseSixtyFourInputComponent
+  ]
 })
-export class AppModule { }
+export class Angular2BaseSixtyFourInputModule { }
