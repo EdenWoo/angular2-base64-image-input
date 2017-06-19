@@ -1,7 +1,16 @@
 {
   "name": "angular2-base64-image-input",
   "version": "0.0.1",
+  "description": "Angular2 image base64 input",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdenWoo/angular2-base64-image-input.git"
+  },
   "license": "MIT",
+    "author": {
+    "name": "Eden Wu",
+    "email": "xiaoyumqyz@gmail.com"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -42,5 +51,15 @@
     "ts-node": "~2.0.0",
     "tslint": "~4.5.0",
     "typescript": "~2.2.0"
-  }
+  },
+  "keywords": [
+    "angular2",
+    "image",
+    "base64",
+    "photo",
+    "ng2",
+    "ng",
+    "angular",
+    "angular4"
+  ]
 }
